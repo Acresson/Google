@@ -52,6 +52,15 @@ header {
 
 
 ---------------------------------------------------------------------------------
+
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .Maincontent {
   display: flex;
   flex-direction: column;
@@ -74,6 +83,10 @@ header {
 .button{
   display:flex;
   justify-content: center;
+}
+
+.searchbtn:hover , .luckbtn:hover{
+  border:1px solid #e8eaed;
 }
 
 .searchbar {
